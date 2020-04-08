@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Search from './components/search';
 import Results from './components/results';
 import './index.css';
+import Tab from './components/tab';
 import axios from 'axios';
 
 function App() {
@@ -55,8 +56,8 @@ function App() {
       </header>
       <main>
         <Search handleInput={handleInput} search={search} />
-        <Results results={state.results} />
-
+        <Results results={state.results} openTab={openTab}/>
+      {(typeof state.selected.Title != "undefined") ? <Tab selected={state.selected} closeTab={closeTab} /> : false}
       </main>
     </div>
   );

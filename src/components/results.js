@@ -3,7 +3,7 @@ import Result from './result';
 
 function Results ({ results }) {
     return (
-        <div className="results-block">
+        <div className="results">
             {results.map(result => (
                 <Result result={result} />
             ))}

@@ -2,6 +2,7 @@ body {
   background: #0f2027;
   background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  width: 100%;
 }
 
 * {
@@ -35,4 +36,41 @@ main {
   opacity: 0.8;
   font-size: 20px;
   border-radius: 10px;
+  transition: 0.4s ease-out;
+}
+
+.results-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+}
+
+.results-block .movie-result {
+  min-width: 230px;
+  padding: 15px;
+  width: 33.333%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.movie-result img {
+  width: 100%;
+  display: block;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  transition: 0.4s ease-out;
+  padding: 15px;
+  text-align: center;
+  font-family: "Sedgwick Ave", cursive;
+  background-color: #010202;
+  font-weight: 500;
+  flex: 1 1 100%;
+}
+
+.movie-result:hover h3 {
+  background: lightslategray;
 }

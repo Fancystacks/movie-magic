@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/movie-magic/static/css/main.5f361e03.chunk.css",
+    "main.js": "/movie-magic/static/js/main.2d2e2efd.chunk.js",
+    "main.js.map": "/movie-magic/static/js/main.2d2e2efd.chunk.js.map",
+    "runtime-main.js": "/movie-magic/static/js/runtime-main.da583df0.js",
+    "runtime-main.js.map": "/movie-magic/static/js/runtime-main.da583df0.js.map",
+    "static/js/2.409f7f4c.chunk.js": "/movie-magic/static/js/2.409f7f4c.chunk.js",
+    "static/js/2.409f7f4c.chunk.js.map": "/movie-magic/static/js/2.409f7f4c.chunk.js.map",
+    "index.html": "/movie-magic/index.html",
+    "precache-manifest.bb27ad5baa80081f78cfd604b3b4ca52.js": "/movie-magic/precache-manifest.bb27ad5baa80081f78cfd604b3b4ca52.js",
+    "service-worker.js": "/movie-magic/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/movie-magic/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.409f7f4c.chunk.js.LICENSE.txt": "/movie-magic/static/js/2.409f7f4c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/movie-magic/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da583df0.js",
+    "static/js/2.409f7f4c.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2d2e2efd.chunk.js"
+  ]
+}

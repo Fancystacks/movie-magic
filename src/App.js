@@ -10,7 +10,7 @@ function App() {
     results: [],
     selected: {}
   });
-  const apiKEY = "http://www.omdbapi.com/?i=tt3896198&apikey=954e89e9";
+  const apiKEY = "https://www.omdbapi.com/?i=tt3896198&apikey=954e89e9";
 
   const userSearch = (event) => {
     if (event.key === "Enter") {

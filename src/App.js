@@ -32,6 +32,22 @@ function App() {
     console.log(state.newSearch);
   }
 
+  const openTab = (id) => {
+    axios(`${apiKEY}&i=${id}`).then(({ data }) => {
+      let result = data;
+
+      setState(prevState => {
+        return { ...prevState, selected: result }
+      });
+    });
+  }
+
+  const closeTab = () => {
+    setState(prevState => {
+      return { ...prevState, selected: {} }
+    });
+  }
+
   return (
     <div className="App">
       <header>
@@ -40,6 +56,7 @@ function App() {
       <main>
         <Search handleInput={handleInput} search={search} />
         <Results results={state.results} />
+
       </main>
     </div>
   );

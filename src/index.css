@@ -77,3 +77,54 @@ h3 {
 .result:hover h3 {
   background: lightslategray;
 }
+
+.open-card {
+  position: fixed;
+  overflow: scroll;
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+.open-card .info {
+  display: block;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1em;
+  color: white;
+}
+
+h2 {
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.rating {
+  margin: 30px;
+}
+
+.plot {
+  flex: 1 1 60%;
+  max-width: 280px;
+  padding: 0px 15px;
+}
+
+p {
+  flex: 1 1 60%;
+  padding: 15px;
+}
+
+.close-tab {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  background: darkgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.close-tab:hover {
+  background: green;
+}

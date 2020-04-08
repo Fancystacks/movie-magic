@@ -3,11 +3,11 @@ import Result from './result';
 
 function Results ({ results }) {
     return (
-        <div className="results">
+        <section className="results">
             {results.map(result => (
                 <Result result={result} />
             ))}
-        </div>
+        </section>
     )
 }
 

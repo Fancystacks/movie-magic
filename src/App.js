@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Search from './components/search';
 import Results from './components/results';
 import './index.css';
-import Tab from './components/tab';
 import axios from 'axios';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
   });
   const apiKEY = "http://www.omdbapi.com/?i=tt3896198&apikey=954e89e9";
 
-  const search = (event) => {
+  const userSearch = (event) => {
     if (event.key === "Enter") {
       axios(`${apiKEY}&s=${state.newSearch}`).then(({ data }) => {
         let result = data.Search;
@@ -33,31 +32,14 @@ function App() {
     console.log(state.newSearch);
   }
 
-  const openTab = (id) => {
-    axios(`${apiKEY}&i=${id}`).then(({ data }) => {
-      let result = data;
-
-      setState(prevState => {
-        return { ...prevState, selected: result }
-      });
-    });
-  }
-
-  const closeTab = () => {
-    setState(prevState => {
-      return { ...prevState, selected: {} }
-    });
-  }
-
   return (
     <div className="App">
       <header>
         <h1>Movie Magic</h1>
       </header>
       <main>
-        <Search handleInput={handleInput} search={search} />
-        <Results results={state.results} openTab={openTab}/>
-      {(typeof state.selected.Title != "undefined") ? <Tab selected={state.selected} closeTab={closeTab} /> : false}
+        <Search handleInput={handleInput} userSearch={userSearch} />
+        <Results results={state.results}/>
       </main>
     </div>
   );

@@ -5,7 +5,7 @@ function Tab ({ selected, closeTab }) {
         <section className="open-card">
             <div className="info">
     <h2>{selected.Title}</h2> <span>({ selected.Year })</span>
-    <p className="rating"> =Rating: {selected.imdbRating}</p>
+    <p className="rating">Rating: {selected.imdbRating}</p>
     <div className="plot">
         <img src={selected.Poster} alt="poster" />
     <p>{selected.Plot}</p>

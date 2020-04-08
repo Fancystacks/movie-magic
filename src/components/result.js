@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Result ({ result, openTab }) {
+function Result ({ result }) {
     return (
-        <div className="result" onClick={() => openTab(result.imdbID)}>
+        <div className="result">
         <img src={result.Poster} 
         alt="movie-poster"/>
         <h3>{result.Title}</h3>

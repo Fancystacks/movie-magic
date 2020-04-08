@@ -1,11 +1,11 @@
 import React from 'react';
 import Result from './result';
 
-function Results ({ results, openTab }) {
+function Results ({ results }) {
     return (
         <section className="results">
             {results.map(result => (
-                <Result result={result} openTab={openTab}/>
+                <Result key={result.imdbID} result={result}/>
             ))}
         </section>
     )

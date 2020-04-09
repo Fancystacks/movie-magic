@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/movie-magic/static/css/main.5fc9d9b2.chunk.css",
+    "main.css": "/movie-magic/static/css/main.c8b5b521.chunk.css",
     "main.js": "/movie-magic/static/js/main.aafd3029.chunk.js",
     "main.js.map": "/movie-magic/static/js/main.aafd3029.chunk.js.map",
     "runtime-main.js": "/movie-magic/static/js/runtime-main.da583df0.js",
@@ -8,15 +8,15 @@
     "static/js/2.4200cc1d.chunk.js": "/movie-magic/static/js/2.4200cc1d.chunk.js",
     "static/js/2.4200cc1d.chunk.js.map": "/movie-magic/static/js/2.4200cc1d.chunk.js.map",
     "index.html": "/movie-magic/index.html",
-    "precache-manifest.3182899aa7c7d206b16d27c440db0bd5.js": "/movie-magic/precache-manifest.3182899aa7c7d206b16d27c440db0bd5.js",
+    "precache-manifest.cd2d0e9bef3bdde50f7c5b780c5764a4.js": "/movie-magic/precache-manifest.cd2d0e9bef3bdde50f7c5b780c5764a4.js",
     "service-worker.js": "/movie-magic/service-worker.js",
-    "static/css/main.5fc9d9b2.chunk.css.map": "/movie-magic/static/css/main.5fc9d9b2.chunk.css.map",
+    "static/css/main.c8b5b521.chunk.css.map": "/movie-magic/static/css/main.c8b5b521.chunk.css.map",
     "static/js/2.4200cc1d.chunk.js.LICENSE.txt": "/movie-magic/static/js/2.4200cc1d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.da583df0.js",
     "static/js/2.4200cc1d.chunk.js",
-    "static/css/main.5fc9d9b2.chunk.css",
+    "static/css/main.c8b5b521.chunk.css",
     "static/js/main.aafd3029.chunk.js"
   ]
 }

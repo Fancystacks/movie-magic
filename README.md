@@ -16,4 +16,8 @@
 
  <img src="https://user-images.githubusercontent.com/38336934/78832352-55d96a80-79a8-11ea-9848-2e0cb67afa74.png" width="500" height="300">
 
+#### _The IMDB database has limited movie posters on older content, thus a filler picture was added to fill some of the pictures_ [see below]
+
+ <img src="https://user-images.githubusercontent.com/38336934/78851317-bb445000-79d6-11ea-8d2a-b420aad4e5a7.png" width="500" height="300">
+
 ### This site was deployed on [GitHub Pages](https://fancystacks.github.io/movie-magic/)
